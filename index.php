@@ -10,10 +10,14 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-const STYLE_SOURCE = "./css/block.css";
+define("GH_PLUGIN_SOURCE", plugin_dir_url( __FILE__ ));
 
 function add_style()
 {
-    wp_enqueue_style('tttpStyle', STYLE_SOURCE);
+    $GH_STYLES = array("css/block.css", "css/test1.css", "css/test2.css");
+    
+    foreach ($GH_STYLES as $style) {
+        wp_enqueue_style("ghamar_" . $style, GH_PLUGIN_SOURCE . $style);
+    }
 }
 add_action('wp_enqueue_scripts', 'add_style');
