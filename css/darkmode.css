@@ -1,0 +1,8 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    --wp--preset--color--foreground: #ffffff !important;
+    --wp--preset--color--background: #121212 !important;
+    --wp--preset--color--block--background: #222222 !important;
+    --wp--preset--color--home--background: #222222 !important;
+  }
+}
