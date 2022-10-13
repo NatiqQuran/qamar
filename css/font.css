@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("../fonts/WebYekan.eot");
+  src: url("../fonts/WebYekan.ttf") format("ttf");
+}
+.ghFontYekan {
+  font-family: "Yekan";
+}
+
+@font-face {
+  font-family: "XM Yekan";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/XMYekan.eot");
+  src: url("../fonts/XMYekan.ttf") format("ttf"),
+    url("../fonts/XMYekan.woff2") format("woff2"),
+    url("../fonts/XMYekan.woff") format("woff");
+}
+.ghFontXMyekan {
+  font-family: "XM Yekan" sans-serif;
+}
+
+@font-face {
+  font-family: "XM Yekan" bold;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/XMYekanBold.eot");
+  src: url("../fonts/XMYekanBold.ttf") format("ttf"),
+    url("../fonts/XMYekanBold.woff2") format("woff2"),
+    url("../fonts/XMYekanBoldItalic.woff") format("woff");
+}
+.ghFontXMyekanBold {
+  font-family: "XM Yekan" bold sans-serif;
+}
+
+@font-face {
+  font-family: "BMitra";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/BMitra.woff") format("woff");
+}
+.ghFontBmitra {
+  font-family: "BMitra";
+}
+
+@font-face {
+  font-family: "BMitraBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/BMitraBold.woff") format("woff");
+}
+.ghFontBmitraBold {
+  font-family: "BMitraBold";
+}
+
+@font-face {
+  font-family: "hafs";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/hafs.eot");
+  src: url("../fonts/hafs.woff") format("woff");
+  src: url("../fonts/hafs.otf") format("otf");
+}
+.ghhafs {
+  font-family: "hafs";
+}
