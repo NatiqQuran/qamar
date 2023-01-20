@@ -14,7 +14,7 @@ define("GH_PLUGIN_SOURCE", plugin_dir_url( __FILE__ ));
 
 function add_styles()
 {
-    $GH_STYLES = array("css/style.css", "css/shadow.css", "css/darkmode.css");
+    $GH_STYLES = array("css/style.css", "css/shadow.css", "css/darkmode.css", "css/font.css");
     
     foreach ($GH_STYLES as $style) {
         wp_enqueue_style("ghamar_" . $style, GH_PLUGIN_SOURCE . $style);
