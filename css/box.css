@@ -1,0 +1,11 @@
+.ghBoxS:hover {
+    transform: scale(1.03);
+  }
+
+.ghBox-shadow:hover {
+    box-shadow: 0 1px 1px 0 rgb(66 66 66 / 8%), 0 1px 3px 1px rgb(66 66 66 / 16%);
+  }
+
+.ghBox-t-all {
+    transition: all 0.2s;
+  }
