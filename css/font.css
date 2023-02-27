@@ -4,7 +4,7 @@
   src: url("../fonts/BYekan.woff") format("woff"),
     url("../fonts/BYekan.woff2") format("woff2");    
 }
-.ghBYekan {
+.ghFontBYekan {
   font-family: "BYekan";
 }
 
@@ -73,10 +73,4 @@
 }
 .ghhafs {
   font-family: "hafs";
-}
-
-
-body{
-  --wp--preset--font-family--system-font: BYekan !important;
-	--wp--preset--font-family--source-serif-pro: BYekan !important;
 }
