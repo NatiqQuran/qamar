@@ -1,4 +1,14 @@
 @font-face {
+  font-family: "BYekan";
+  src: url("../fonts/BYekan.eot");
+  src: url("../fonts/BYekan.woff") format("woff"),
+    url("../fonts/BYekan.woff2") format("woff2");    
+}
+.ghFontBYekan {
+  font-family: "BYekan";
+}
+
+@font-face {
   font-family: "Yekan";
   src: url("../fonts/WebYekan.eot");
   src: url("../fonts/WebYekan.ttf") format("ttf");
@@ -61,6 +71,6 @@
   src: url("../fonts/hafs.woff") format("woff");
   src: url("../fonts/hafs.otf") format("otf");
 }
-.ghhafs {
+.ghHafs {
   font-family: "hafs";
 }
