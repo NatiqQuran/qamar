@@ -4,11 +4,11 @@
   }
 }
 
-.ghBoxScaleOn:hover {
+.ghBoxScaleOnHover:hover {
   transform: scale(1.03);
 }
 
-.ghBoxTransitionAll  {
+.ghBoxTransitionAll {
     transition: all 0.2s;
 }
 
