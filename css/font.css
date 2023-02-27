@@ -74,3 +74,9 @@
 .ghhafs {
   font-family: "hafs";
 }
+
+
+body{
+  --wp--preset--font-family--system-font: BYekan !important;
+	--wp--preset--font-family--source-serif-pro: BYekan !important;
+}
