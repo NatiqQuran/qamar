@@ -95,3 +95,17 @@
   background: radial-gradient(50% 50% at 50% 50%, #000000 0%, rgba(0, 0, 0, 0) 100%);
   opacity: 0.5;
 }
+
+.qBorderDashed{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: dashed 2px #82809A;
+}
+
+  .qMarginTop{
+    margin-top: -50px !important;
+  }
