@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Ghamar
+ * Plugin Name: Qamar
  * Author: Natiq dev team
  * Description: Add CSS custom classes to wordpress
  * Version: 0.0.2
@@ -17,7 +17,7 @@ function add_styles()
     $GH_STYLES = array("css/box.css", "css/style.css", "css/shadow.css", "css/darkmode.css", "css/font.css");
     
     foreach ($GH_STYLES as $style) {
-        wp_enqueue_style("ghamar_" . $style, GH_PLUGIN_SOURCE . $style);
+        wp_enqueue_style("Qamar_" . $style, GH_PLUGIN_SOURCE . $style);
     }
 }
 add_action('wp_enqueue_scripts', 'add_styles');
