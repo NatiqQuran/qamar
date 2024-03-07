@@ -5,7 +5,7 @@
  * Plugin URI: https://qamar.natiq.net
  * Author: Natiq dev team
  * Description: Add CSS custom classes to wordpress
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.0
  * License: MIT License
  * License URI: https://spdx.org/licenses/MIT.html

@@ -23,7 +23,7 @@ A few notes about the sections above:
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.1 =
 * A change since the previous version.
 * Added new styles.
 * Change the name of some classes.
