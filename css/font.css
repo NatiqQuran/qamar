@@ -17,7 +17,7 @@
   font-style: italic;
 }
 
-.QFontOpenSense {
+.qFontOpenSense {
   font-family: "OpenSans";
 }
 
@@ -41,7 +41,7 @@
   font-display: swap;
 }
 
-.QFontPlusJakartaSans {
+.qFontPlusJakartaSans {
   font-family: "PlusJakartaSans";
 }
 
@@ -56,7 +56,7 @@
   font-weight: normal;
 }
 
-.QFontRoboto {
+.qFontRoboto {
   font-family: "Roboto";
 }
 
@@ -82,7 +82,7 @@
     font-display: swap;
 }
 
-.QFontABeeZee {
+.qFontABeeZee {
   font-family: "ABeeZee";
 }
 
@@ -98,7 +98,7 @@
     font-display: swap;
 }
 
-.QFontAboreto {
+.qFontAboreto {
   font-family: "Aboreto";
 }
 
@@ -113,7 +113,7 @@
   font-weight: normal;
 }
 
-.QFontAmiri {
+.qFontAmiri {
   font-family: "Amiri";
 }
 
@@ -129,7 +129,7 @@
   font-display: swap;
 }
 
-.QFontAmiriQuranColored {
+.qFontAmiriQuranColored {
   font-family: "AmiriQuranColored";
 }
 
@@ -144,7 +144,7 @@
   font-weight: normal;
 }
 
-.QFontNotoNaskhArabic {
+.qFontNotoNaskhArabic {
   font-family: "NotoNaskhArabic";
 }
 
@@ -160,7 +160,7 @@
   font-weight: normal;
 }
 
-.QFontHafs {
+.qFontHafs {
   font-family: "hafs";
 }
 
@@ -175,7 +175,7 @@
   font-weight: normal;
     }
 
-.QFontBYekan {
+.qFontBYekan {
   font-family: "B Yekan";
 }
     
@@ -190,7 +190,7 @@
   font-weight: normal;
 }
 
-.QFontBmitra {
+.qFontBmitra {
   font-family: "B Mitra";
 }
 
@@ -207,7 +207,7 @@
   font-display: swap;
 }
 
-.QFontEstedad {
+.qFontEstedad {
   font-family: "Estedad";
 }
 
@@ -224,7 +224,7 @@
   font-display: swap;
 }
 
-.QFontMikhak {
+.qFontMikhak {
   font-family: "Mikhak";
 }
 
@@ -241,7 +241,7 @@
   font-display: swap;
 }
 
-.QFontVazirmatn {
+.qFontVazirmatn {
   font-family: "Vazirmatn";
 }
 
@@ -256,7 +256,7 @@
   font-weight: normal;
 }
 
-.QFontYekan {
+.qFontYekan {
   font-family: "Web Yekan";
 }
 
@@ -271,6 +271,6 @@
   font-style: normal;
 }
 
-.QFontXMyekan {
+.qFontXMyekan {
   font-family: "XM Yekan";
 }
