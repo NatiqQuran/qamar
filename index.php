@@ -10,15 +10,25 @@
  * License: MIT License
  * License URI: https://spdx.org/licenses/MIT.html
  */
-
-define("GH_PLUGIN_SOURCE", plugin_dir_url( __FILE__ ));
+define("Q_PLUGIN_SOURCE", plugin_dir_url(__FILE__));
 
 function add_styles()
 {
-    $GH_STYLES = array("css/box.css", "css/style.css", "css/shadow.css", "css/darkmode.css", "css/font.css");
-    
-    foreach ($GH_STYLES as $style) {
-        wp_enqueue_style("Qamar_" . $style, GH_PLUGIN_SOURCE . $style);
+    $Q_STYLES = array("css/box.css", "css/style.css", "css/shadow.css", "css/darkmode.css", "css/font.css");
+
+    foreach ($Q_STYLES as $style) {
+        wp_enqueue_style("Qamar_" . $style, Q_PLUGIN_SOURCE . $style);
     }
 }
 add_action('wp_enqueue_scripts', 'add_styles');
+
+// add (Javascript Scripts)
+function add_scripts()
+{
+    $Q_SCRIPTS = array("js/clipboard.js");
+
+    foreach ($Q_SCRIPTS as $script) {
+        wp_enqueue_script("Qamar_" . $script, Q_PLUGIN_SOURCE . $script);
+    }
+}
+add_action('wp_enqueue_scripts', 'add_scripts');
