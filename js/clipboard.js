@@ -6,11 +6,10 @@ const copy = (e) => {
 
     e.target.classList.add("qCopied");
 
-    const timeoutId = setTimeout(() => e.target.classList.remove("qCopied"), 1000);
-    clearTimeout(timeoutId);
+    setTimeout(() => e.target.classList.remove("qCopied"), 1000);
 }
 
-document
+window.onload = () => document
     .querySelectorAll(".qClickToCopyText")
     .forEach(el => el.addEventListener("click", copy))
 
