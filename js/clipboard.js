@@ -9,7 +9,7 @@ const copy = (e) => {
     setTimeout(() => e.target.classList.remove("qCopied"), 1000);
 }
 
-window.onload = () => document
+document
     .querySelectorAll(".qClickToCopyText")
     .forEach(el => el.addEventListener("click", copy))
 
