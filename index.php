@@ -28,7 +28,13 @@ function add_scripts()
     $Q_SCRIPTS = array("js/clipboard.js");
 
     foreach ($Q_SCRIPTS as $script) {
-        wp_enqueue_script("Qamar_" . $script, Q_PLUGIN_SOURCE . $script);
+        wp_enqueue_script(
+            "Qamar_" . $script,
+            Q_PLUGIN_SOURCE . $script,
+            array(),
+            '1.0.0', 
+            array('strategy'  => 'defer')
+        );
     }
 }
 add_action('wp_enqueue_scripts', 'add_scripts');
