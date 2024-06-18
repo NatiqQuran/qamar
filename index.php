@@ -14,7 +14,7 @@ define("Q_PLUGIN_SOURCE", plugin_dir_url(__FILE__));
 
 function add_styles()
 {
-    $Q_STYLES = array("css/box.css", "css/style.css", "css/shadow.css", "css/darkmode.css", "css/font.css");
+    $Q_STYLES = array("css/box.css", "css/style.css", "css/shadow.css", "css/font.css");
 
     foreach ($Q_STYLES as $style) {
         wp_enqueue_style("Qamar_" . $style, Q_PLUGIN_SOURCE . $style);
