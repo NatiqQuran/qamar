@@ -1,10 +1,10 @@
 @media print {
-  .noPrint {
+  .qNoPrint {
     display: none;
   }
 }
 @media screen {
-  .onlyPrint {
+  .qOnlyPrint {
     display: none;
   }
 }
