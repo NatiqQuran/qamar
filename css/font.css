@@ -1,9 +1,11 @@
-  /******** English Fonts ********/
+/******** English Fonts ********/
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/English-Fonts/Open_Sans/OpenSans-Regular.woff2") format("woff2-variations"),
-       url("../fonts/English-Fonts/Open_Sans/OpenSans-Regular.woff") format("woff-variations");
+  src: url("../fonts/English-Fonts/Open_Sans/OpenSans-Regular.woff2")
+      format("woff2-variations"),
+    url("../fonts/English-Fonts/Open_Sans/OpenSans-Regular.woff")
+      format("woff-variations");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -11,8 +13,10 @@
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/English-Fonts/Open_Sans/OpenSans-Italic.woff2") format("woff2-variations"),
-       url("../fonts/English-Fonts/Open_Sans/OpenSans-Italic.woff") format("woff-variations");
+  src: url("../fonts/English-Fonts/Open_Sans/OpenSans-Italic.woff2")
+      format("woff2-variations"),
+    url("../fonts/English-Fonts/Open_Sans/OpenSans-Italic.woff")
+      format("woff-variations");
   font-weight: normal;
   font-style: italic;
 }
@@ -25,8 +29,10 @@
 
 @font-face {
   font-family: "PlusJakartaSans";
-  src: url("../fonts/English-Fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.woff2") format("woff2-variations"),
-       url("../fonts/English-Fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.woff") format("woff-variations");
+  src: url("../fonts/English-Fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.woff2")
+      format("woff2-variations"),
+    url("../fonts/English-Fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.woff")
+      format("woff-variations");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -34,8 +40,10 @@
 
 @font-face {
   font-family: "PlusJakartaSans";
-  src: url("../fonts/English-Fonts/Open_Sans/OpenSans-Italic.woff2") format("woff2-variations"),
-       url("../fonts/English-Fonts/Plus_Jakarta_Sans/PlusJakartaSans-Italic.woff") format("woff-variations");
+  src: url("../fonts/English-Fonts/Open_Sans/OpenSans-Italic.woff2")
+      format("woff2-variations"),
+    url("../fonts/English-Fonts/Plus_Jakarta_Sans/PlusJakartaSans-Italic.woff")
+      format("woff-variations");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -50,8 +58,8 @@
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/English-Fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
-       url("../fonts/English-Fonts/Roboto/Roboto-Regular.woff") format("woff"),
-       url("../fonts/English-Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    url("../fonts/English-Fonts/Roboto/Roboto-Regular.woff") format("woff"),
+    url("../fonts/English-Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -63,23 +71,25 @@
 /* ---------------------------- */
 
 @font-face {
-    font-family: "ABeeZee";
-    src: url("../fonts/English-Fonts/ABeeZee/ABeeZee-Regular.woff2") format("woff2"),
-         url("../fonts/English-Fonts/ABeeZee/ABeeZee-Regular.woff") format("woff"),
-         url("../fonts/English-Fonts/ABeeZee/ABeeZee-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "ABeeZee";
+  src: url("../fonts/English-Fonts/ABeeZee/ABeeZee-Regular.woff2")
+      format("woff2"),
+    url("../fonts/English-Fonts/ABeeZee/ABeeZee-Regular.woff") format("woff"),
+    url("../fonts/English-Fonts/ABeeZee/ABeeZee-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "ABeeZee";
-    src: url("../fonts/English-Fonts/ABeeZee/ABeeZee-Italic.woff2") format("woff2"),
-         url("../fonts/English-Fonts/ABeeZee/ABeeZee-Italic.woff") format("woff"),
-         url("../fonts/English-Fonts/ABeeZee/ABeeZee-Italic.ttf") format("truetype");
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: "ABeeZee";
+  src: url("../fonts/English-Fonts/ABeeZee/ABeeZee-Italic.woff2")
+      format("woff2"),
+    url("../fonts/English-Fonts/ABeeZee/ABeeZee-Italic.woff") format("woff"),
+    url("../fonts/English-Fonts/ABeeZee/ABeeZee-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 .qFontABeeZee {
@@ -89,25 +99,26 @@
 /* ---------------------------- */
 
 @font-face {
-    font-family: "Aboreto";
-    src: url("../fonts/English-Fonts/Aboreto/Aboreto-Regular.woff2") format("woff2"),
-         url("../fonts/English-Fonts/Aboreto/Aboreto-Regular.woff") format("woff"),
-         url("../fonts/English-Fonts/Aboreto/Aboreto-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Aboreto";
+  src: url("../fonts/English-Fonts/Aboreto/Aboreto-Regular.woff2")
+      format("woff2"),
+    url("../fonts/English-Fonts/Aboreto/Aboreto-Regular.woff") format("woff"),
+    url("../fonts/English-Fonts/Aboreto/Aboreto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .qFontAboreto {
   font-family: "Aboreto";
 }
 
-  /******** Arabic Fonts ********/
+/******** Arabic Fonts ********/
 
 @font-face {
   src: url("../fonts/Arabic-Fonts/Amiri/Amiri-Regular.woff2") format("woff2"),
-       url("../fonts/Arabic-Fonts/Amiri/Amiri-Regular.woff") format("woff"),
-       url("../fonts/Arabic-Fonts/Amiri/Amiri-Regular.ttf") format("truetype");
+    url("../fonts/Arabic-Fonts/Amiri/Amiri-Regular.woff") format("woff"),
+    url("../fonts/Arabic-Fonts/Amiri/Amiri-Regular.ttf") format("truetype");
   font-family: "Amiri";
   font-style: normal;
   font-weight: normal;
@@ -121,9 +132,12 @@
 
 @font-face {
   font-family: "AmiriQuranColored";
-  src: url("../fonts/Arabic-Fonts/Amiri_Quran_colored/AmiriQuranColored.woff2") format("woff2"),
-       url("../fonts/Arabic-Fonts/Amiri_Quran_colored/AmiriQuranColored-Regular.woff") format("woff"),
-       url("../fonts/Arabic-Fonts/Amiri_Quran_colored/AmiriQuranColored.ttf") format("truetype");
+  src: url("../fonts/Arabic-Fonts/Amiri_Quran_colored/AmiriQuranColored.woff2")
+      format("woff2"),
+    url("../fonts/Arabic-Fonts/Amiri_Quran_colored/AmiriQuranColored-Regular.woff")
+      format("woff"),
+    url("../fonts/Arabic-Fonts/Amiri_Quran_colored/AmiriQuranColored.ttf")
+      format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -137,9 +151,12 @@
 
 @font-face {
   font-family: "NotoNaskhArabic";
-  src: url("../fonts/Arabic-Fonts/Noto_Naskh_Arabic/NotoNaskhArabic-Regular.woff2") format("woff2"),
-       url("../fonts/Arabic-Fonts/Noto_Naskh_Arabic/NotoNaskhArabic-Regular.woff") format("woff"),
-       url("../fonts/Arabic-Fonts/Noto_Naskh_Arabic/NotoNaskhArabic-Regular.ttf") format("truetype");
+  src: url("../fonts/Arabic-Fonts/Noto_Naskh_Arabic/NotoNaskhArabic-Regular.woff2")
+      format("woff2"),
+    url("../fonts/Arabic-Fonts/Noto_Naskh_Arabic/NotoNaskhArabic-Regular.woff")
+      format("woff"),
+    url("../fonts/Arabic-Fonts/Noto_Naskh_Arabic/NotoNaskhArabic-Regular.ttf")
+      format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -153,9 +170,9 @@
 @font-face {
   font-family: "hafs";
   src: url("../fonts/Arabic-Fonts/Hafs/hafs.woff2") format("woff2"),
-       url("../fonts/Arabic-Fonts/Hafs/hafs.woff") format("woff"),
-       url("../fonts/Arabic-Fonts/Hafs/hafs.ttf") format("truetype"),
-       url("../fonts/Arabic-Fonts/Hafs/hafs.otf");
+    url("../fonts/Arabic-Fonts/Hafs/hafs.woff") format("woff"),
+    url("../fonts/Arabic-Fonts/Hafs/hafs.ttf") format("truetype"),
+    url("../fonts/Arabic-Fonts/Hafs/hafs.otf");
   font-style: normal;
   font-weight: normal;
 }
@@ -169,23 +186,23 @@
 @font-face {
   font-family: "B Yekan";
   src: url("../fonts/Persian-Fonts/B-Yekan/BYekan.woff2") format("woff2"),
-       url("../fonts/Persian-Fonts/B-Yekan/Byekan.woff") format("woff"),
-       url("../fonts/Persian-Fonts/B-Yekan/BYekan.ttf") format("truetype");
+    url("../fonts/Persian-Fonts/B-Yekan/Byekan.woff") format("woff"),
+    url("../fonts/Persian-Fonts/B-Yekan/BYekan.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
-    }
+}
 
 .qFontBYekan {
   font-family: "B Yekan";
 }
-    
+
 /* ---------------------------- */
-    
+
 @font-face {
   font-family: "B Mitra";
   src: url("../fonts/Persian-Fonts/BMitra/BMitra.woff2") format("woff2"),
-       url("../fonts/Persian-Fonts/BMitra/BMitra.woff") format("woff"),
-       url("../fonts/Persian-Fonts/BMitra/BMitra.ttf") format("truetype");
+    url("../fonts/Persian-Fonts/BMitra/BMitra.woff") format("woff"),
+    url("../fonts/Persian-Fonts/BMitra/BMitra.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -198,10 +215,14 @@
 
 @font-face {
   font-family: "Estedad";
-  src: url("../fonts/Persian-Fonts/Estedad/Estedad-FD-KSHD-wght.woff2") format("woff2-variations"),
-       url("../fonts/Persian-Fonts/Estedad/Estedad-KSHD-wght.woff2") format("woff2-variations"),
-       url("../fonts/Persian-Fonts/Estedad/Estedad-FD-KSHD-wght.ttf") format("truetype-variations"),
-       url("../fonts/Persian-Fonts/Estedad/Estedad-KSHD-wght.ttf") format("truetype-variations");
+  src: url("../fonts/Persian-Fonts/Estedad/Estedad-FD-KSHD-wght.woff2")
+      format("woff2-variations"),
+    url("../fonts/Persian-Fonts/Estedad/Estedad-KSHD-wght.woff2")
+      format("woff2-variations"),
+    url("../fonts/Persian-Fonts/Estedad/Estedad-FD-KSHD-wght.ttf")
+      format("truetype-variations"),
+    url("../fonts/Persian-Fonts/Estedad/Estedad-KSHD-wght.ttf")
+      format("truetype-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -215,10 +236,14 @@
 
 @font-face {
   font-family: "Mikhak";
-  src: url("../fonts/Persian-Fonts/Mikhak/Mikhak-FD-DSTYKSHD-wght.woff2") format("woff2-variations"),
-       url("../fonts/Persian-Fonts/Mikhak/Mikhak-DSTY-KSHD-wght.woff2") format("woff2-variations"),
-       url("../fonts/Persian-Fonts/Mikhak/Mikhak-DSTY-KSHD-wght.ttf") format("truetype-variations"),
-       url("../fonts/Persian-Fonts/Mikhak/Mikhak-FD-DSTY-KSHD-wght.ttf") format("truetype-variations");
+  src: url("../fonts/Persian-Fonts/Mikhak/Mikhak-FD-DSTYKSHD-wght.woff2")
+      format("woff2-variations"),
+    url("../fonts/Persian-Fonts/Mikhak/Mikhak-DSTY-KSHD-wght.woff2")
+      format("woff2-variations"),
+    url("../fonts/Persian-Fonts/Mikhak/Mikhak-DSTY-KSHD-wght.ttf")
+      format("truetype-variations"),
+    url("../fonts/Persian-Fonts/Mikhak/Mikhak-FD-DSTY-KSHD-wght.ttf")
+      format("truetype-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -232,10 +257,14 @@
 
 @font-face {
   font-family: "Vazirmatn";
-  src: url("../fonts/Persian-Fonts/Vazirmatn/Vazirmatn-wght.woff2") format("woff2 supports variations"),
-       url("../fonts/Persian-Fonts/Vazirmatn/Vazirmatn-wght.woff2") format("woff2-variations"),
-       url("../fonts/Persian-Fonts/Vazirmatn/Vazirmatn-wght.ttf") format("truetype supports variations"),
-       url("../fonts/Persian-Fonts/Vazirmatn/Vazirmatn-wght.ttf") format("truetype-variations");
+  src: url("../fonts/Persian-Fonts/Vazirmatn/Vazirmatn-wght.woff2")
+      format("woff2 supports variations"),
+    url("../fonts/Persian-Fonts/Vazirmatn/Vazirmatn-wght.woff2")
+      format("woff2-variations"),
+    url("../fonts/Persian-Fonts/Vazirmatn/Vazirmatn-wght.ttf")
+      format("truetype supports variations"),
+    url("../fonts/Persian-Fonts/Vazirmatn/Vazirmatn-wght.ttf")
+      format("truetype-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -250,8 +279,8 @@
 @font-face {
   font-family: "Web Yekan";
   src: url("../fonts/Persian-Fonts/WebYekan/WebYekan.woff2") format("woff2"),
-       url("../fonts/Persian-Fonts/WebYekan/WebYekan.woff") format("woff"),
-       url("../fonts/Persian-Fonts/WebYekan/WebYekan.ttf") format("truetype");
+    url("../fonts/Persian-Fonts/WebYekan/WebYekan.woff") format("woff"),
+    url("../fonts/Persian-Fonts/WebYekan/WebYekan.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -265,8 +294,8 @@
 @font-face {
   font-family: "XM Yekan";
   src: url("../fonts/Persian-Fonts/XMYekan/XMYekan.woff2") format("woff2"),
-       url("../fonts/Persian-Fonts/XMYekan/XMYekan.woff") format("woff"),
-       url("../fonts/Persian-Fonts/XMYekan/XMYekan.ttf") format("truetype");
+    url("../fonts/Persian-Fonts/XMYekan/XMYekan.woff") format("woff"),
+    url("../fonts/Persian-Fonts/XMYekan/XMYekan.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
