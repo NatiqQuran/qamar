@@ -1,112 +1,121 @@
 @media print {
-  .noPrint {
+  .qnoPrint {
     display: none;
   }
 }
 @media screen {
-  .onlyPrint {
+  .qonlyPrint {
     display: none;
   }
 }
 
 /* Six Class for dispaly none in different scale */
 
-@media screen and (max-width:350px) {
-  .qMediaOnXssScreenNone{
+@media screen and (max-width: 350px) {
+  .qMediaOnXssScreenNone {
     display: none;
   }
 }
 
-@media screen and (max-width:444px) {
-  .qMediaOnXsScreenNone{ 
+@media screen and (max-width: 444px) {
+  .qMediaOnXsScreenNone {
     display: none;
   }
 }
 
-@media screen and (max-width:600px) {
-  .qMediaOnSmScreenNone{ 
+@media screen and (max-width: 600px) {
+  .qMediaOnSmScreenNone {
     display: none;
   }
 }
 
-@media screen and (max-width:900px) {
-  .qMediaOnMdScreenNone{ 
+@media screen and (max-width: 900px) {
+  .qMediaOnMdScreenNone {
     display: none;
   }
 }
 
-@media screen and (max-width:1200px) {
-  .qMediaOnLgScreenNone{ 
+@media screen and (max-width: 1200px) {
+  .qMediaOnLgScreenNone {
     display: none;
   }
 }
 
-@media screen and (max-width:1500px) {
-  .qMediaOnXlScreenNone{ 
+@media screen and (max-width: 1500px) {
+  .qMediaOnXlScreenNone {
     display: none;
   }
 }
-
 
 /* For customize your block position */
 
-@media screen and (max-width:444px) {
-  .qMediaOnXsNowrap{ 
-    flex-wrap:nowrap !important;
+@media screen and (max-width: 444px) {
+  .qMediaOnXsNowrap {
+    flex-wrap: nowrap !important;
   }
 }
 
-@media screen and (max-width:900px) {
-  .qMediaOnMdAlignCenter{ 
+@media screen and (max-width: 900px) {
+  .qMediaOnMdAlignCenter {
     justify-content: center !important;
   }
 }
 
-@media screen and (max-width:1500px) {
-  .qMediaOnXlAlignCenter{ 
+@media screen and (max-width: 1500px) {
+  .qMediaOnXlAlignCenter {
     justify-content: center !important;
   }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1500px) {
-  .qMediaOnXlEndSmScreenNone{
-      justify-content: center !important;    
+  .qMediaOnXlEndSmScreenNone {
+    justify-content: center !important;
   }
 }
-    
+
 @media (max-width: 781px) {
-  .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column.qWrapNegativeOnMdScren{
-      flex-basis: 30% !important;
+  .wp-block-columns:not(.is-not-stacked-on-mobile)
+    > .wp-block-column.qWrapNegativeOnMdScren {
+    flex-basis: 30% !important;
   }
 }
-    
+
 @media (max-width: 781px) {
-  .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column.qWrapPositiveOnMdScren {
+  .wp-block-columns:not(.is-not-stacked-on-mobile)
+    > .wp-block-column.qWrapPositiveOnMdScren {
     flex-basis: 40% !important;
   }
 }
 /* Radial Gradient Background */
 
-.qBoxRadialBgWhite{
-  background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
+.qBoxRadialBgWhite {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #d9d9d9 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
 }
 
-.qBoxRadialBgBlack{
-  background: radial-gradient(50% 50% at 50% 50%, #000000 0%, rgba(0, 0, 0, 0) 100%);
+.qBoxRadialBgBlack {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   opacity: 0.5;
 }
 
-.qBorderDashed{
+.qBorderDashed {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  border: dashed 2px #82809A;
+  border: dashed 2px #82809a;
 }
 
-.qMarginTop{
+.qMarginTop {
   margin-top: -50px !important;
 }
 
@@ -124,4 +133,3 @@
   color: #222;
   opacity: 0.8;
 }
-
