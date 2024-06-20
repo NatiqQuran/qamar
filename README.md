@@ -1,4 +1,5 @@
 === Qamar ===
+Contact Us:info@natiq.net
 Contributors: (NatiqCurator@gmail.com, in wordpress.org)
 Donate link: https://blog.natiq.net/sponsor
 Tags: Qamar, editor, custom style
@@ -15,17 +16,16 @@ Using this plugin, you can add CSS custom classes to wordpress site
 
 A few notes about the sections above:
 
-* "Contributors" is a comma separated list of wordpress.org usernames
-* "Tags" is a comma separated list of tags that apply to the plugin
-* "Requires at least" is the lowest version that the plugin will work on
-* "Tested up to" is the highest version that you've *successfully used to test the plugin*
-* Stable tag must indicate the Subversion "tag" of the latest stable version
+- "Contributors" is a comma separated list of wordpress.org usernames
+- "Tags" is a comma separated list of tags that apply to the plugin
+- "Requires at least" is the lowest version that the plugin will work on
+- "Tested up to" is the highest version that you've _successfully used to test the plugin_
+- Stable tag must indicate the Subversion "tag" of the latest stable version
 
 == Changelog ==
 
-= 1.0.1 =
-* A change since the previous version.
-* Added new styles.
-* Change the name of some classes.
+= 1.0.3 =
 
-
+- A change since the previous version.
+- Added new styles.
+- Change the name of some classes.
