@@ -5,17 +5,17 @@
  * Plugin URI: https://qamar.natiq.net
  * Author: Natiq dev team
  * Description: Add CSS custom classes to wordpress
- * Version: 1.0.4
+ * Version: 1.0.5
  * Requires at least: 5.0
  * License: MIT License
  * License URI: https://spdx.org/licenses/MIT.html
  */
-efine("Q_PLUGIN_SOURCE", plugin_dir_url(__FILE__));
+define("Q_PLUGIN_SOURCE", plugin_dir_url(__FILE__));
 define("Q_PLUGIN_DIR", plugin_dir_path(__FILE__));
 
 function add_styles()
 {
-    $Q_STYLES = array("css/box.css", "css/style.css", "css/shadow.css", "css/font.css");
+    $Q_STYLES = array("css/style.css", "css/shadow.css", "css/font.css");
 
     foreach ($Q_STYLES as $style) {
         wp_enqueue_style(
