@@ -6,7 +6,7 @@ Donate link: https://blog.natiq.net/sponsor
 Tags: Qamar, editor, custom style
 Requires at least: 5.0
 Tested up to: 6.5.5
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 Requires PHP: 7.0
 License: MIT License
 License URI: https://spdx.org/licenses/MIT.html
@@ -18,6 +18,9 @@ Using this plugin, you can add CSS custom classes to wordpress site
 [Qamar](https://qamar.natiq.net) provides <strong>styles </strong> for the WordPress block.
 
 == Changelog ==
+
+= 1.0.5 =
+- Fix Bug
 
 = 1.0.4 =
 - Fix Bug
